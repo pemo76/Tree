@@ -14,19 +14,11 @@ class Node
 
 int maxDepth(Node* node)
 {
-	if (node == NULL)
-		return -1;
-	else
-	{
-	
-		int lDepth = maxDepth(node->left);
-		int rDepth = maxDepth(node->right);
-	
-		/* use the larger one */
-		if (lDepth > rDepth)
-			return(lDepth + 1);
-		else return(rDepth + 1);
-	}
+	if(node == NULL)
+        return 0;
+    int left = 1+maxDepth(node->left);
+    int right = 1+maxDepth(node->right);
+    return max(left,right);
 }
 
 
