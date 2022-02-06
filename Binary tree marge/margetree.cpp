@@ -9,13 +9,11 @@ class node{
 };
 
 node *newNode(int data){
-   if(data==NULL)
-      return;
-    node *n =new node();
+    node *n = new node();
     n->data=data;
     n->right=NULL;
     n->left=NULL;
-    return n;
+    return(n);
 }
 
 void inorder(node *n){
