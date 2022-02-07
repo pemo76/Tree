@@ -29,9 +29,10 @@ public class postorder{
     public static void Postorder(Node root){
         if(root==null)
             return;
-        System.out.print(root.data+"-");
-        Postorder(root.right);
+        
         Postorder(root.left);
+        Postorder(root.right);
+        System.out.print(root.data+"-");
     }
 
     public static void main(String[] args){
