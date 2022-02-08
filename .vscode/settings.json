@@ -2,8 +2,9 @@
     "C_Cpp.errorSquiggles": "Enabled",
     "java.project.sourcePaths": [
         "postorder",
-        "Preorder",
         "level order traversal",
-        "count of nodes"
+        "count of nodes",
+        "Preorder",
+        "count node data"
     ]
 }
