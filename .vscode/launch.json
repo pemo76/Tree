@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch countdata",
+            "request": "launch",
+            "mainClass": "countdata",
+            "projectName": "Tree_a7c544f8"
+        },
+        {
+            "type": "java",
             "name": "Launch countNodes",
             "request": "launch",
             "mainClass": "countNodes",
