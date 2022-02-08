@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch countNodes",
+            "request": "launch",
+            "mainClass": "countNodes",
+            "projectName": "Tree_a7c544f8"
+        },
+        {
+            "type": "java",
             "name": "Launch levloder",
             "request": "launch",
             "mainClass": "levloder",
